@@ -1,0 +1,116 @@
+:root{
+
+--Blue: hsl(223, 87%, 63%);
+
+/* ### Secondary */
+
+--PaleBlue: hsl(223, 100%, 88%);
+--LightRed: hsl(354, 100%, 66%);
+--Gray: hsl(0, 0%, 59%);
+--VeryDarkBlue: hsl(209, 33%, 12%);
+}
+img{
+    max-width: 100%;
+    display: block
+}
+html{
+    font-family:"Libre Franklin", sans-serif ;
+
+}
+
+body{
+    line-height: 1.5;
+    font-size: 1.25rem;
+    margin-block: 5%;
+}
+.wrapper{
+    min-height: 90vh;
+   max-width: 600px;
+    margin-inline:auto;
+
+}
+.home{
+    margin-block: 2%;
+    text-align: center;
+
+}
+.home__img{
+    max-width: 600px;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+.logo img {
+    margin-inline: auto;
+}
+h1{
+    color: var(--Gray);
+    font-size: 2.5rem;
+
+}
+span{
+    color: black;
+}
+h2{
+    color: var(--Gray);
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+    flex-wrap: wrap;
+}
+
+input {
+    flex-grow: 2;
+  
+    border-radius: 100vw; /* This will create a circular border */
+    
+    border: 2px solid var(--Gray); /* Set border width and color */
+    padding: .75rem 2.5rem;
+
+}
+
+.btn{
+   flex-grow: 1;
+    border-radius: 100vw;
+    background-color: var(--Blue);
+    color: white;
+    box-shadow: 1px 1px 5px var(--Blue);
+    cursor: pointer;
+    border: transparent;
+    padding: .75rem 2.5rem;
+
+   
+
+
+}
+footer i{
+    font-size: .875rem;
+    margin-top: 3rem;
+    color: var(--Blue);
+    border: .5px solid var(--Blue);
+    border-radius: 100vw;
+    padding: .375rem;
+    background-color: transparent;
+    margin-inline: .25rem;
+    cursor: pointer;
+}
+i:hover{
+    color: white;
+    background-color: var(--Blue);
+}
+    .notification {
+        display: none;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: green;
+        color: white;
+        padding: 2rem 3rem;
+        border-radius: 5px;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.75);
+      
+}

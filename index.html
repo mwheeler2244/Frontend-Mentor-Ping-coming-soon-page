@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <main>
+    <section class="home wrapper">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <h1>We are launching <span>soon!</span></h1>
+      <h2>Subscribe and get notified</h2>
+      <form id="myForm" class="input">
+       
+        <input id="email" name="email"   type="email" placeholder="Your email address.." required>
+        <button type="submit" class="btn">Notify me</button>
+      </form>
+      <div id="notification" class="notification"></div>
+      <div id="error-message"></div>
+     <div class="home__img"><img src="./images/illustration-dashboard.png" alt=""></div>
+     <footer>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      
+    
+     </footer>
+
+    </section>
+  </main>
+<script src="script.js" ></script>
+</body>
+</html>
